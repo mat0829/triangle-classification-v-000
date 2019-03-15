@@ -9,7 +9,7 @@ class Triangle
   end
   
   def kind
-    
+    Triangle.new(a, b, c).even? == :equalateral
   end
  
   class TriangleError < StandardError
