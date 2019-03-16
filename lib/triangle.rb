@@ -29,7 +29,7 @@ class Triangle
     end
       
     elsif side_a == side_b && side_a == side_c
-      self.kind = :equalateral
+      self.kind = :equilateral
       
     elsif side_a == side_b || side_a == side_c || side_b ==  side_c
       self.kind = :isosceles
