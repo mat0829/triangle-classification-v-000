@@ -25,7 +25,7 @@ class Triangle
     elsif side_a == side_b && side_a == side_c
       self.kind = :equalateral
       
-    elsif side_a == side_b || side_c
+    elsif side_a == side_b || side_a == side_c || side_b ==  side_c
       self.kind = :isosceles
       
     elsif side_a == side_b && side_c
