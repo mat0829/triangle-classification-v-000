@@ -22,7 +22,7 @@ class Triangle
     begin 
       raise TriangleError
       
-    elsif side_a == side_b && side_c
+    elsif side_a == side_b && side_a == side_c
       self.kind = :equalateral
       
     elsif side_a == side_b || side_c
