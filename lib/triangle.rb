@@ -6,7 +6,7 @@ class Triangle
       @side_a = side_a
       @side_b = side_b 
       @side_c = side_c
-    end
+  end
  
   class TriangleError < StandardError
     # triangle error code
