@@ -12,4 +12,8 @@ class Triangle
     # triangle error code
   end
   
+  def kind 
+    
+  end
+  
 end
