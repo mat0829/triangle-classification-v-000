@@ -9,7 +9,7 @@ class Triangle
   end
  
   class TriangleError < StandardError
-    # triangle error code
+    def 
   end
   
   
@@ -21,6 +21,7 @@ class Triangle
     
     begin 
       raise TriangleError
+        puts error.message
     end
       
     elsif side_a == side_b && side_a == side_c
