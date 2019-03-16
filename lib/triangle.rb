@@ -14,7 +14,7 @@ class Triangle
   
   
   
-  def kind
+  def self.kind
     
     if (side_a + side_b) <= side_c || (side_a + side_c) <= side_b || (side_b + side_c) <= side_a ||
       (side_a * side_b * side_c) == 0
