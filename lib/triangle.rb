@@ -9,7 +9,7 @@ class Triangle
   end
   
   def kind
-    Triangle.new(a, b, c).even? == :equalateral
+    if @a + @b >= @c &&
   end
  
   class TriangleError < StandardError
