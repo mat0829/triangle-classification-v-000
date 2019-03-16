@@ -13,7 +13,7 @@ class Triangle
   end
   
   if (@side_a + @side_b) <= @side_c || (@side_a + @side_c) <= @side_b || (@side_b + @side_c) <= @side_a
-  
+    raise TriangleError
   def kind
     
   end
