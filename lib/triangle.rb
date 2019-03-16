@@ -3,5 +3,7 @@ class Triangle
  
   class TriangleError < StandardError
     # triangle error code
+    def initialize(:a, :b, :c)
+    
   end
 end
