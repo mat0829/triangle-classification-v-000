@@ -1,6 +1,6 @@
 class Triangle
   # triangle code
-  attr_accessor :side_a, :side_b, :side_c, 
+  attr_accessor :side_a, :side_b, :side_c, :kind
   
   def initialize(side_a, side_b, side_c)
       @side_a = side_a
