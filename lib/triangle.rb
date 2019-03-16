@@ -12,6 +12,8 @@ class Triangle
     # triangle error code
   end
   
+  if (@side_a + @side_b) <= @side_c 
+  
   def kind
     
   end
