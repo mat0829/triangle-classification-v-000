@@ -3,7 +3,11 @@ class Triangle
  
   class TriangleError < StandardError
     # triangle error code
-    def initialize(:a, :b, :c)
+    def initialize(:side_a, :side_b, :side_c)
+      @side_a = side_a
+      @side_b = side_b 
+      @side_c = side_c
+    end
     
   end
 end
