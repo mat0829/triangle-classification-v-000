@@ -17,7 +17,8 @@ class Triangle
     begin 
       raise TriangleError
       
-  elsif 
+  elsif side_a == side_b && side_c
+    self.kind = :equalateral
   
   def kind
     
