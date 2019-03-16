@@ -11,9 +11,5 @@ class Triangle
   class TriangleError < StandardError
     # triangle error code
   end
-
-  def kind 
-    
-  end
   
 end
