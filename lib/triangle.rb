@@ -12,7 +12,11 @@ class Triangle
     # triangle error code
   end
   
-  if (side_a + side_b) <= side_c || (side_a + side_c) <= side_b || (side_b + side_c) <= side_a || (side_a * side_b * side_c) == 0
+  
+  
+  def kind
+    
+    if (side_a + side_b) <= side_c || (side_a + side_c) <= side_b || (side_b + side_c) <= side_a || (side_a * side_b * side_c) == 0
     
   begin 
       raise TriangleError
@@ -21,9 +25,6 @@ class Triangle
     self.kind = :equalateral
     
   end
-  
-  def kind
-    
   end
   
 end
